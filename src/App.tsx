@@ -1,3 +1,4 @@
+import AccessorieSection from './components/AccessorieSection'
 import DrawerUI from './components/DrawerUI'
 import HeaderLanding from './components/HeaderLanding'
 import LandingSection from './components/LandingSection'
@@ -60,6 +61,9 @@ function App () {
             mobileSrc='/solar-roof-mobile.avif'
             secondBottomText='Learn More'
           />
+        </div>
+        <div className='snap-center'>
+          <AccessorieSection />
         </div>
       </main>
       <DrawerUI />

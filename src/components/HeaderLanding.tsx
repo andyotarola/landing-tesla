@@ -41,8 +41,8 @@ export default function HeaderLanding () {
 
     const options: IntersectionObserverInit = {
       root: null,
-      rootMargin: '4px',
-      threshold: 0.9
+      rootMargin: '0px',
+      threshold: 0.7
     }
 
     const observer = new IntersectionObserver((entries) => {
@@ -67,7 +67,7 @@ export default function HeaderLanding () {
   return (
     <header
       className='
-        fixed w-full px-8 py-4
+        fixed w-full px-4 md:px-8 py-4
         flex items-center
         justify-between z-40
         transition-colors duration-300
